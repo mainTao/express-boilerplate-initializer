@@ -34,7 +34,7 @@ initializer.init()
     server.on('listening', onListening);
   })
   .catch(err => {
-    console.error('init fail')
+    console.error('init fail', err)
     process.exit(1)
   })
 
