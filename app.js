@@ -1,4 +1,3 @@
-const express = require('express')
 const vhost = require('vhost')
 
 // main-app
